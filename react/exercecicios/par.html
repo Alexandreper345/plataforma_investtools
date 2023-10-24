@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    par<input type="number"   id="inp1">
+    <input type="button" value="executar" onclick="main()">
+
+    <script>
+        function main(){
+            num1 = document.getElementById("inp1")
+            val1 = Number(num1.value)
+            
+            if (val1 % 2 == 0){
+                console.log(`  o numero que vc colocou ${val1} é par `)
+
+            } else
+                console.log(`  o numero que vc colocou ${val1} é impar `)
+            
+
+        }
+    </script>    
+</body>
+</html>

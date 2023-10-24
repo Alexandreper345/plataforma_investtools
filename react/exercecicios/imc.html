@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> IMC </title>
+</head>
+<body>
+    peso<input type="number" value="peso"  id="inp1">
+    altura<input type="number" value="altura" id="inp2">
+    <input type="button" value="executar" onclick="main()">
+
+    <script>
+        function main(){
+            num1 = document.getElementById("inp1")
+            num2 = document.getElementById("inp2")
+            val1 = Number(num1.value)
+            val2 = Number(num2.value)
+
+            console.log(`o peso ${val1} e a sua altura ${val2} o imc desses dois é = ${val1/(val2**2)}`)
+        }
+    </script>        
+</body>
+</html>

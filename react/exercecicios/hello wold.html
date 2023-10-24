@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello world</title>
+</head>
+<body>  o botão que dá o print hello world
+    <input  type="button" value = "aparece" onclick="printar()"> 
+    
+    <div id = "res">
+    </div>
+    
+    <script>
+
+        function printar(){
+            var res = document.querySelector("div#res")
+            res.innerHTML = `você apertou o botão que aparece para você <strong> HELLO WORLD </strong>`
+        }
+
+    </script>
+    
+
+</body>
+</html>

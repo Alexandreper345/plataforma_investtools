@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bissexto</title>
+</head>
+<body>
+    ano<input type="number"   id="inp1">
+    <input type="button" value="executar" onclick="main()">
+
+    <script>
+        function main(){
+            num1 = document.getElementById("inp1")
+            val1 = Number(num1.value)
+
+            if ( val1 % 4 == 0){
+                console.log(`o ano  ${val1} é bissexto`)
+
+            }else
+            console.log(`o ano ${val1} não é bissexto`)    
+            
+        }
+    </script>    
+</body>
+</html>

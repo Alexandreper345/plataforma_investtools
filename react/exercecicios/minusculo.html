@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINUSCULO</title>
+</head>
+<body>
+    <input type="text" name="tx" id = "min">
+    <input type="button" value="executar" onclick="main()">
+
+    <script>
+        function main(){
+            palavra = document.getElementById("min")
+            valor = palavra.value
+            
+            document.write(`sua palavra em minusculo é ${valor.toLowerCase()}`)
+            console.log(`sua palavra em minusculo é ${valor.toLowerCase()}`)
+
+        }
+
+    </script>
+
+
+</body>
+</html>

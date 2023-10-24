@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOME E SOBRENOME</title>
+</head>
+<body>
+    <input type="text" nome="textou" id="nombre">
+    <input type="text" name="textou" id="sobrenome">
+    <input type="button" value="executar" onclick= main()>
+
+    <script>
+        
+        function main(){ 
+            nome = document.getElementById("nombre")
+            sobrenome = document.getElementById("sobrenome")
+            valn = nome.value
+            vals = sobrenome.value
+
+
+        console.log(`seu nome é ${valn} e o sobrenome é ${vals} e eles dois juntos ficam ${valn}  ${vals}`)
+
+        }   
+    </script>
+
+</body>
+</html>

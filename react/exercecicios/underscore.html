@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>undescore</title>
+</head>
+<body>
+    <input type="text" name="textinho" id="inp1">
+    <input type="button" value="executar" onclick="main()">
+
+    <script>
+        function main(){
+            receber = document.getElementById("inp1")
+            val = receber.value
+            subs = val.split(" ").join("_")
+
+            console.log(subs)
+
+        }
+
+    </script>
+
+</body>
+</html>

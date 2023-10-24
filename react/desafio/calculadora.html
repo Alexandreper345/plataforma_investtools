@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+</head>
+<body>
+    <p> numeros
+        <input type="number" id="num1">  
+        <input type="number" id="num2">
+    </p> 
+    
+    <p> sinais 
+        <input type="radio" name="txsina" id="soma"> 
+        <label for="soma"> "somar" </label>
+        <input type="radio" name="txsina" id="subtrar">
+        <label for="subtrar"> "subtrair" </label>
+        <input type="radio" name="txsina" id="produto">
+        <label for="produto"> "multiplicação" </label>
+        <input type="radio" name="txsina" id="divisão">
+        <label for="divisão"> "dividir" </label>    
+    </p>
+    <p>
+        <input type="button"  value ="executar" onclick="executar()">
+    </p>
+
+    <script src="calculadora.js"></script>    
+</body>
+</html>

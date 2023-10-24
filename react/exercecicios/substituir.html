@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Substituir</title>
+</head>
+<body>
+    <input type="text" name="textinho" id="inp1">
+    <input type="text" name="textinho" id="inp2">
+    <input type="button" value="executar" onclick="main()">
+
+
+    <script>
+
+        function main(){
+            pal1 = document.getElementById("inp1")
+            pal2 = document.getElementById("inp2")
+            val1 = pal1.value
+            val2 = pal2.value
+            
+
+            document.write(`a palavra que você utilizou pra substituir foi ${val1} e será subtstituido para ${val2}`)
+            console.log(`a palavra que você utilizou pra substituir foi ${val1} e será subtstituido para ${val2}`)
+        }
+    </script>
+
+
+</body>
+</html>

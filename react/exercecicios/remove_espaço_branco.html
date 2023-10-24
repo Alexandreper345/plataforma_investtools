@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REMOVE ESPAÇO </title>
+</head>
+<body>
+    <input type="text" name="textinho" id="removee">
+    <input type="button" value="executar" onclick="main()">
+
+    <script>
+
+        function main(){
+            palavra = document.getElementById("removee")
+            valor = palavra.value
+            remover = valor.trim()
+
+            console.log(`a palavra que não vai ter espaço é ${remover}`)
+        }
+
+
+
+    </script>
+
+    
+</body>
+</html>

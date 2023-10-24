@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+        <input type="number"  id="inp1">
+        <input type="number"  id="inp2">
+        <input type="button" value="executar" onclick="main()">
+    
+        <script>
+            function main(){
+                num1 = document.getElementById("inp1")
+                num2 = document.getElementById("inp2")
+                val1 = Number(num1.value)
+                val2 = Number(num2.value)
+    
+                console.log(`o produto do numero ${val1} e ${val2} é = ${val1*val2}`)
+    
+            }
+    
+        </script>
+        
+</body>
+</html>
